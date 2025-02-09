@@ -1,8 +1,4 @@
 import streamlit as st
-from pygbif import species, occurrences
-import random
-import kagglehub
-import os
 import informacion
 
 if "nombre" not in st.session_state:
